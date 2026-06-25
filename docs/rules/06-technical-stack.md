@@ -8,6 +8,7 @@ Recommended:
 React
 TypeScript
 Vite
+Lucide React icons
 Tailwind CSS or CSS Modules
 GitHub Pages
 ```

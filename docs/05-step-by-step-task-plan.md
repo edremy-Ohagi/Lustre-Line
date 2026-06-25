@@ -71,34 +71,34 @@ For GitHub Pages MVP, prefer `HashRouter` or an equivalent static-host-safe rout
 
 | ID | Task | Status | Acceptance |
 | --- | --- | --- | --- |
-| P1.10 | Build mobile-first app shell | NEXT | Header does not dominate mobile viewport |
-| P1.11 | Build hero section | PENDING | First screen shows brand, product vibe, and consultation CTA |
-| P1.12 | Build category section | PENDING | 项链、手链、耳钉、戒指 are visible |
-| P1.13 | Build product grid | PENDING | Cards show image, name, labels, price or 询问价格 |
-| P1.14 | Build product detail modal | PENDING | Modal opens, closes, and shows product details |
-| P1.15 | Build product detail page | PENDING | Modal can link to independent detail route |
-| P1.16 | Build contact section | PENDING | WeChat and Xiaohongshu QR areas are clear |
-| P1.17 | Build footer | PENDING | Footer contains brand and contact summary |
+| P1.10 | Build mobile-first app shell | DONE | Header does not dominate mobile viewport |
+| P1.11 | Build hero section | DONE | First screen shows brand, product vibe, and consultation CTA |
+| P1.12 | Build category section | DONE | 项链、手链、耳钉、戒指 are visible |
+| P1.13 | Build product grid | DONE | Cards show image, name, labels, price or 询问价格 |
+| P1.14 | Build product detail modal | DONE | Modal opens, closes, and shows product details |
+| P1.15 | Build product detail page | DONE | Modal can link to independent detail route |
+| P1.16 | Build contact section | DONE | WeChat and Xiaohongshu QR areas are clear |
+| P1.17 | Build footer | DONE | Footer contains brand and contact summary |
 
 ### 1.4 Mobile And Polish
 
 | ID | Task | Status | Acceptance |
 | --- | --- | --- | --- |
-| P1.18 | Mobile layout pass | PENDING | 375px and 390px widths have no overlap or text overflow |
-| P1.19 | Desktop layout pass | PENDING | 1280px layout feels refined and not sparse |
-| P1.20 | Customer-facing copy cleanup | PENDING | No demo, learning, backend, or technical wording appears |
-| P1.21 | Accessibility basics | PENDING | Buttons, links, images, modal labels are reasonable |
-| P1.22 | Performance basics | PENDING | Images lazy-load where appropriate; build size remains sensible |
+| P1.18 | Mobile layout pass | DONE | 375px and 390px widths have no overlap or text overflow |
+| P1.19 | Desktop layout pass | DONE | 1280px layout feels refined and not sparse |
+| P1.20 | Customer-facing copy cleanup | DONE | No demo, learning, backend, or technical wording appears |
+| P1.21 | Accessibility basics | DONE | Buttons, links, images, modal labels are reasonable |
+| P1.22 | Performance basics | DONE | Images lazy-load where appropriate; build size remains sensible |
 
 ### 1.5 MVP Verification And Share
 
 | ID | Task | Status | Acceptance |
 | --- | --- | --- | --- |
-| P1.23 | Run build checks | PENDING | Build succeeds |
-| P1.24 | Browser verification | PENDING | Main flow works: home -> product modal -> detail page -> contact |
-| P1.25 | Prepare GitHub Pages deployment | PENDING | Deployment script or action exists |
+| P1.23 | Run build checks | DONE | Build succeeds |
+| P1.24 | Browser verification | DONE | Main flow works: home -> product modal -> detail page -> contact |
+| P1.25 | Prepare GitHub Pages deployment | DONE | Deployment script or action exists |
 | P1.26 | Deploy MVP to GitHub Pages | PENDING | Shareable URL exists |
-| P1.27 | Prepare founder feedback checklist | PENDING | Questions for style, product data, contact, and layout are ready |
+| P1.27 | Prepare founder feedback checklist | DONE | Questions for style, product data, contact, and layout are ready |
 
 ## Phase 2: Founder Feedback Iteration
 

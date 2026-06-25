@@ -4,7 +4,7 @@
 
 ## 当前状态
 
-项目处于前台 MVP 工程阶段，`apps/web` 脚手架、品牌资源和静态商品数据基础已搭建。
+项目处于前台 MVP 工程阶段，`apps/web` 已完成移动端优先的前台页面、本地多视口 QA、主流程验证、品牌资源和静态商品数据基础。
 
 当前明确规则：
 
@@ -66,6 +66,8 @@ CI/CD
 - `docs/adr/`：关键技术和流程决策记录
 - `docs/mobile-qa-checklist.md`：移动端验收清单
 - `docs/release-checklist.md`：发布前检查清单
+- `docs/github-pages-deployment.md`：GitHub Pages 部署说明
+- `docs/founder-feedback-checklist.md`：发给学姐后的反馈收集清单
 - `docs/documentation-sync-policy.md`：开发后文档同步规则
 - `docs/ai-feature-plan.md`：后续 AI 功能规划
 

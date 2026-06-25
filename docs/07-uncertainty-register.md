@@ -56,8 +56,14 @@ RESOLVED       already decided
 
 ## Current Summary
 
-No current uncertainty blocks starting P1.10-P1.17.
+No current uncertainty blocks for deployment preparation, but publishing may need GitHub Pages settings enabled in the remote repository.
 
 P1.5-P1.9 applied sensible MVP defaults: transparent header logo, placeholder product data, high-quality product imagery, and WeChat / Xiaohongshu QR slots.
 
-P1.10-P1.17 can proceed with defaults unless the user provides new brand, product, or contact assets.
+P1.10-P1.17 completed the customer-facing MVP page with sensible defaults: hero, categories, product grid, detail modal, independent detail page, contact cards, and footer.
+
+P1.18-P1.24 completed multi-viewport QA, copy cleanup, accessibility basics, performance basics, build checks, and main-flow browser verification.
+
+P1.25 and P1.27 are prepared locally: GitHub Pages workflow and founder feedback checklist exist.
+
+P1.26 remains dependent on the remote GitHub Pages workflow producing a public URL.

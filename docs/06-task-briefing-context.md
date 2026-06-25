@@ -13,7 +13,7 @@ It intentionally avoids repeating every rule in full. Detailed rules live in `do
 - Visual direction: 轻奢温柔
 - Categories: 项链、手链、耳钉、戒指
 - MVP goal: mobile-first frontend preview deployable to GitHub Pages
-- Current next task: `P1.10-P1.17`
+- Current next task: `P1.26`
 
 ## Current Fixed Decisions
 
@@ -70,9 +70,9 @@ Preferred:
 
 ```text
 请读取 AGENTS.md 和 docs/06-task-briefing-context.md。
-执行任务：P1.10-P1.17
-范围限制：完成前台 MVP 页面，不做后台、数据库、支付、订单或 AI。
-验收重点：移动端优先；首屏有商品展示和咨询转化；商品卡片、详情弹窗、详情页、微信/小红书二维码区域可用。
+执行任务：P1.26
+范围限制：只确认或完成 GitHub Pages 发布，不引入后台、数据库、支付或订单。
+验收重点：GitHub Actions Pages workflow 成功；产物可通过公开 URL 访问；`HashRouter` 商品详情路由可用。
 遇到不确定项：参考 docs/07-uncertainty-register.md，非阻塞项按默认值推进。
 完成后汇报：改了哪些文件、运行命令、检查结果、下一步建议。
 ```
@@ -80,7 +80,7 @@ Preferred:
 Short:
 
 ```text
-执行 P1.10-P1.17。按 docs/06-task-briefing-context.md 和 docs/07-uncertainty-register.md 默认值推进。
+执行 P1.26。确认 GitHub Pages workflow 是否成功；如果 Pages 未启用或缺少权限，说明需要用户在 GitHub 仓库设置中处理什么。
 ```
 
 ## Execution Contract
@@ -170,5 +170,5 @@ If checks could not run, state why.
 
 ## Current Blockers
 
-- No blocker for `P1.10-P1.17`.
-- `P1.10-P1.17` can proceed using defaults in `docs/07-uncertainty-register.md`.
+- GitHub Pages deployment may need repository Pages settings enabled or a successful Actions run before a public URL exists.
+- Real QR codes and real product photos remain optional replacement assets for founder feedback.

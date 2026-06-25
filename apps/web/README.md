@@ -8,6 +8,7 @@ This is the customer-facing MVP frontend for 南望玉叙.
 - TypeScript
 - Vite
 - React Router with `HashRouter` for GitHub Pages compatibility
+- Lucide React icons
 - Oxlint
 - Prettier
 
@@ -30,5 +31,11 @@ The frontend currently includes:
 - Product and contact TypeScript types
 - Static placeholder product data
 - WeChat and Xiaohongshu contact channel placeholders
+- Mobile-first home page with hero, categories, product cards, contact section, and footer
+- Product detail modal
+- Independent product detail route
+- Multi-viewport QA pass for mobile, tablet, and desktop
+- Main-flow browser verification: home -> product modal -> detail page -> contact
+- GitHub Pages-compatible Vite base path configuration
 
-The next implementation stage is the customer-facing MVP page: hero, categories, product cards, detail modal, detail route, contact section, and footer.
+The next implementation stage is confirming the GitHub Pages workflow deployment URL.

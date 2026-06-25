@@ -100,13 +100,21 @@
 - 建立商品分类、商品类型和占位商品数据
 - 每个分类已至少准备 1 个占位商品
 - 建立微信 / 小红书联系方式与二维码占位数据
+- 完成移动端优先的前台 MVP 页面
+- 完成首屏、分类、商品列表、商品详情弹窗、独立详情页、联系方式区域和页脚
+- 商品弹窗可以跳转到独立详情页
+- 完成 360 / 375 / 390 / 430 / 768 / 1280 视口 QA
+- 完成对外文案禁用词检查、可访问性基础检查、性能基础优化和主流程浏览器验证
+- 恢复并补齐 `docs/release-checklist.md`
+- 已配置 GitHub Pages Actions 部署流程
+- 已补充 GitHub Pages 部署说明和学姐反馈清单
 
-当前前台已经具备品牌与数据基础，但还没有开始制作完整商品展示页面和详情弹窗。
+当前前台 MVP 已经通过本地验收，并已准备好 GitHub Pages 部署配置。下一步需要确认远程 GitHub Actions / Pages 是否成功产出公开 URL。
 
 下一步推荐任务：
 
 ```text
-P1.10-P1.17：完成前台 MVP 页面，包括首屏、分类、商品列表、详情弹窗、详情页和联系方式区域
+P1.26：确认 GitHub Pages workflow 是否成功，并拿到可分享 URL
 ```
 
 ## 6. 当前不确定项
@@ -139,8 +147,14 @@ docs/07-uncertainty-register.md
 当前下一步可以直接改成：
 
 ```text
-请读取 AGENTS.md、docs/06-task-briefing-context.md、docs/07-uncertainty-register.md，然后执行 P1.10-P1.17。
-范围：完成移动端优先的前台 MVP 页面，不做后台、数据库、支付、订单、AI。
+请读取 AGENTS.md、docs/06-task-briefing-context.md、docs/release-checklist.md，然后执行 P1.25-P1.26。
+范围：准备 GitHub Pages 部署；如果缺少 GitHub 远程仓库信息，先告诉我需要什么。
+```
+
+当前下一步可以改成：
+
+```text
+请执行 P1.26，确认 GitHub Pages workflow 是否成功。如果 Pages 未启用或缺少权限，请告诉我该在 GitHub 仓库设置里怎么处理。
 ```
 
 如果你想先让 Codex 规划，不写代码：
