@@ -109,12 +109,12 @@
 - 已配置 GitHub Pages Actions 部署流程
 - 已补充 GitHub Pages 部署说明和学姐反馈清单
 
-当前前台 MVP 已经通过本地验收，并已准备好 GitHub Pages 部署配置。下一步需要确认远程 GitHub Actions / Pages 是否成功产出公开 URL。
+当前前台 MVP 已经通过本地验收，并已准备好 GitHub Pages 部署配置。首次 workflow 的构建步骤已成功，但部署步骤被 GitHub Pages 远程设置阻塞，需要在 GitHub 仓库设置里启用 Pages 的 `GitHub Actions` 来源后重跑 workflow。
 
 下一步推荐任务：
 
 ```text
-P1.26：确认 GitHub Pages workflow 是否成功，并拿到可分享 URL
+P1.26：在 GitHub 仓库设置中启用 Pages 的 GitHub Actions 来源后，重跑 workflow 并拿到可分享 URL
 ```
 
 ## 6. 当前不确定项
@@ -154,7 +154,7 @@ docs/07-uncertainty-register.md
 当前下一步可以改成：
 
 ```text
-请执行 P1.26，确认 GitHub Pages workflow 是否成功。如果 Pages 未启用或缺少权限，请告诉我该在 GitHub 仓库设置里怎么处理。
+请执行 P1.26，确认 GitHub Pages workflow 是否成功。如果还没启用 Pages，请先提示我到 GitHub 仓库 Settings -> Pages 选择 GitHub Actions。
 ```
 
 如果你想先让 Codex 规划，不写代码：

@@ -170,5 +170,5 @@ If checks could not run, state why.
 
 ## Current Blockers
 
-- GitHub Pages deployment may need repository Pages settings enabled or a successful Actions run before a public URL exists.
+- `P1.26` is blocked by remote GitHub Pages settings. The workflow build succeeds, but the Pages deploy job fails while the repository Pages API returns 404. Enable Pages with source `GitHub Actions`, then rerun the workflow.
 - Real QR codes and real product photos remain optional replacement assets for founder feedback.

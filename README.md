@@ -71,6 +71,10 @@ CI/CD
 - `docs/documentation-sync-policy.md`：开发后文档同步规则
 - `docs/ai-feature-plan.md`：后续 AI 功能规划
 
+## 当前部署状态
+
+GitHub Pages workflow 已配置，构建步骤通过；部署步骤需要在 GitHub 仓库 `Settings -> Pages` 中启用 `GitHub Actions` 作为来源后重跑。
+
 ## Codex Hook
 
 - `.codex/hooks.json`：配置 Codex `Stop` hook

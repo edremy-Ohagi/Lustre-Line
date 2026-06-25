@@ -56,7 +56,7 @@ RESOLVED       already decided
 
 ## Current Summary
 
-No current uncertainty blocks for deployment preparation, but publishing may need GitHub Pages settings enabled in the remote repository.
+Current deployment blocker: GitHub Pages publishing needs the remote repository Pages source enabled for GitHub Actions.
 
 P1.5-P1.9 applied sensible MVP defaults: transparent header logo, placeholder product data, high-quality product imagery, and WeChat / Xiaohongshu QR slots.
 
@@ -66,4 +66,4 @@ P1.18-P1.24 completed multi-viewport QA, copy cleanup, accessibility basics, per
 
 P1.25 and P1.27 are prepared locally: GitHub Pages workflow and founder feedback checklist exist.
 
-P1.26 remains dependent on the remote GitHub Pages workflow producing a public URL.
+P1.26 is blocked until the remote repository enables Pages with source `GitHub Actions`, then reruns the workflow.

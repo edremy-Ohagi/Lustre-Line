@@ -73,3 +73,23 @@ Source: GitHub Actions
 ```
 
 After a successful workflow run, the deployment URL appears in the workflow summary.
+
+## Current Deployment Blocker
+
+The first workflow run built successfully but failed in the deploy step while the GitHub Pages API returned `404`.
+
+That usually means Pages is not enabled for the repository yet.
+
+To unblock:
+
+1. Open the GitHub repository.
+2. Go to `Settings` -> `Pages`.
+3. Set `Build and deployment` source to `GitHub Actions`.
+4. Open `Actions`.
+5. Rerun `Deploy Web MVP to GitHub Pages`.
+
+Expected preview URL after success:
+
+```text
+https://edremy-ohagi.github.io/Jewel-show/
+```
