@@ -16,7 +16,7 @@ RESOLVED       already decided
 | ID | Question | Status | Blocks | Default If User Says "You Decide" |
 | --- | --- | --- | --- | --- |
 | U1 | Should the provided logo be used directly in the MVP header, footer, or both? | RESOLVED | P1.5 | Use transparent logo mark in header with text fallback; keep full transparent logo available for larger placements |
-| U2 | Are real WeChat and Xiaohongshu QR images available? | NON_BLOCKING | P1.9, P1.16 | Use polished placeholder QR blocks marked as pending contact code |
+| U2 | Are real WeChat and Xiaohongshu QR images available? | NON_BLOCKING | P1.9, P1.16 | WeChat QR is integrated; keep an intentional pending state for Xiaohongshu until provided |
 | U3 | Should MVP include a contact form or only contact channels? | NON_BLOCKING | P1.16 | Use contact channels first; reserve form section only if requested |
 | U4 | Should every placeholder product have an independent detail page? | NON_BLOCKING | P1.15 | Yes, generate detail routes for all placeholder products |
 | U5 | Should every category have at least one placeholder product? | NON_BLOCKING | P1.7 | Yes, at least one item per category |
@@ -28,7 +28,7 @@ RESOLVED       already decided
 | --- | --- | --- | --- | --- |
 | U7 | Is 南望玉叙 the long-term brand name? | LATER | Founder feedback | Treat as current public brand until user says otherwise |
 | U8 | Does the founder have a preferred slogan? | NON_BLOCKING | P1.11 | Write a temporary elegant slogan |
-| U9 | Are there real product names, prices, materials, and images? | NON_BLOCKING | P1.6-P1.8 | Use high-quality placeholder data |
+| U9 | Are there real product names, prices, materials, and images? | RESOLVED | P1.6-P1.8 | Use the six catalogue entries and reference images supplied in `user-docs/商品信息.pdf` |
 | U10 | Is there a store address or only online consultation? | NON_BLOCKING | P1.16 | Online consultation only |
 | U11 | Is Xiaohongshu the main conversion channel? | NON_BLOCKING | P1.16 | Yes |
 | U12 | Should there be a custom jewelry section? | NON_BLOCKING | P1.11-P1.17 | Include custom as a label/CTA, not a full section |
@@ -65,5 +65,7 @@ P1.10-P1.17 completed the customer-facing MVP page with sensible defaults: hero,
 P1.18-P1.24 completed multi-viewport QA, copy cleanup, accessibility basics, performance basics, build checks, and main-flow browser verification.
 
 P1.25 and P1.27 are prepared locally: GitHub Pages workflow and founder feedback checklist exist.
+
+The first founder feedback round is applied: the generic placeholder catalogue has been replaced by six supplied product groups, category browsing is expanded, keyword search is available, and the supplied WeChat QR code is in use. Xiaohongshu account information remains non-blocking and pending.
 
 P1.26 is blocked until the remote repository enables Pages with source `GitHub Actions`, then reruns the workflow.

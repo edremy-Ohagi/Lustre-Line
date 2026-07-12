@@ -23,24 +23,26 @@ export function AppShell() {
     <div className="app-shell">
       <header className="app-header" aria-label="南望玉叙主导航">
         <Link className="brand-link" to="/" aria-label="返回南望玉叙首页">
-          <span className="brand-logo-frame" aria-hidden="true">
-            <img
-              className="brand-logo"
-              src={publicAsset('brand/logo-mark.png')}
-              alt=""
-              width="44"
-              height="44"
-              decoding="async"
-            />
+          <img
+            className="brand-logo"
+            src={publicAsset('brand/logo-mark.png')}
+            alt=""
+            aria-hidden="true"
+            width="36"
+            height="36"
+            decoding="async"
+          />
+          <span>
+            <strong className="brand-name">南望玉叙</strong>
+            <small>天然材质 · 实物选品</small>
           </span>
-          <span className="brand-name">南望玉叙</span>
         </Link>
         <nav className="header-nav" aria-label="页面导航">
-          <button type="button" onClick={() => scrollToSection('products')}>
-            作品
+          <button type="button" onClick={() => scrollToSection('catalogue')}>
+            选品
           </button>
           <button type="button" onClick={() => scrollToSection('contact')}>
-            咨询
+            微信咨询
           </button>
         </nav>
       </header>

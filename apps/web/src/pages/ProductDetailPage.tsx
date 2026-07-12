@@ -8,7 +8,17 @@ export function ProductDetailPage() {
   const { slug } = useParams()
   const product = slug ? getProductBySlug(slug) : undefined
   const relatedProducts = products
-    .filter((item) => item.slug !== slug)
+    .filter(
+      (item) =>
+        item.slug !== slug &&
+        (item.category === product?.category ||
+          item.relatedCategories?.includes(product?.category ?? 'luxury')),
+    )
+    .concat(products.filter((item) => item.slug !== slug))
+    .filter(
+      (item, index, items) =>
+        items.findIndex((candidate) => candidate.id === item.id) === index,
+    )
     .slice(0, 3)
 
   const scrollToContact = () => {
@@ -49,6 +59,9 @@ export function ProductDetailPage() {
                   ))}
                 </div>
                 <p className="detail-price">{product.price.display}</p>
+                {product.price.type === 'range' && product.price.note ? (
+                  <p className="price-note">{product.price.note}</p>
+                ) : null}
                 <p>{product.longDescription}</p>
 
                 <dl className="product-facts detail-facts">
@@ -57,7 +70,7 @@ export function ProductDetailPage() {
                     <dd>{product.material}</dd>
                   </div>
                   <div>
-                    <dt>主石</dt>
+                    <dt>特点</dt>
                     <dd>{product.gemstone}</dd>
                   </div>
                   <div>
@@ -81,17 +94,22 @@ export function ProductDetailPage() {
               </div>
             </div>
 
-            <div className="detail-gallery" aria-label={`${product.name}图片`}>
-              {product.galleryImages.map((image) => (
-                <img
-                  src={image.src}
-                  alt={image.alt}
-                  key={image.src}
-                  loading="lazy"
-                  decoding="async"
-                />
-              ))}
-            </div>
+            {product.galleryImages.length > 1 ? (
+              <div
+                className="detail-gallery"
+                aria-label={`${product.name}图片`}
+              >
+                {product.galleryImages.map((image) => (
+                  <img
+                    src={image.src}
+                    alt={image.alt}
+                    key={image.src}
+                    loading="lazy"
+                    decoding="async"
+                  />
+                ))}
+              </div>
+            ) : null}
 
             <section className="detail-related" aria-labelledby="related-title">
               <div className="section-heading">

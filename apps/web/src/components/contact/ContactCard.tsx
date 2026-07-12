@@ -30,18 +30,18 @@ export function ContactCard({ channel }: ContactCardProps) {
             decoding="async"
           />
         ) : (
-          <div className="qr-placeholder" aria-hidden="true">
-            <span />
-            <span />
-            <span />
+          <div className="qr-placeholder">
+            <BookOpenText aria-hidden="true" size={28} />
+            <strong>账号更新中</strong>
+            <span>上新与佩戴灵感将在这里同步</span>
           </div>
         )}
       </div>
 
       <p className="contact-note">
         {visibleValue
-          ? visibleValue
-          : '二维码即将更新，可先通过页面咨询入口了解款式'}
+          ? `${channel.type === 'wechat' ? '微信号' : '账号'}：${visibleValue}`
+          : '也可以先通过微信了解当前款式'}
       </p>
     </article>
   )

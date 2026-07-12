@@ -2,13 +2,13 @@
 
 ## Product Categories
 
-Initial categories:
+Current browse categories:
 
 ```text
-项链
-手链
-耳钉
-戒指
+热门款式
+项链 / 手链 / 耳钉 / 戒指
+手串 / 手镯 / 标本 / 摆件 / 配件
+高端珠宝 / 情侣款式
 ```
 
 Categories must be designed so they can become backend-managed later.
@@ -63,6 +63,8 @@ A product may have more than one label.
 - Avoid dark, blurry, generic, or overly cropped images.
 - Product cards need stable image aspect ratios.
 - Real product images can replace placeholders later without changing layout.
+- Current source data is `user-docs/商品信息.pdf` / `user-docs/商品信息.docx`; the six supplied reference images are intentionally displayed at restrained sizes because their source resolution is limited.
+- Search indexing should include name, category, related categories, material, gemstone, size, scene, descriptions, labels, and explicit search keywords.
 
 ## Contact Content
 
@@ -78,7 +80,7 @@ The site should support:
 其他社交账号
 ```
 
-QR code images may be placeholders until the founder provides real files.
+The supplied WeChat QR code is in use. Xiaohongshu may keep an intentional pending state until a real QR code or profile link is provided.
 
 ## Customer-Facing Copy
 

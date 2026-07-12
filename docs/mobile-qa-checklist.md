@@ -39,6 +39,14 @@ Check at minimum:
 - Cards do not overflow horizontally.
 - Card tap/click target is comfortable.
 
+## Search And Category Browsing
+
+- Search input, magnifier icon, placeholder, and clear action remain usable at narrow widths.
+- Search results update for product, category, material, and gemstone keywords.
+- 热门款式 appears first in the category strip.
+- The expanded category strip scrolls horizontally without forcing page-level horizontal overflow.
+- Empty categories show an intentional message and a reachable consultation action.
+
 ## Product Detail Modal
 
 - Modal opens from product card.
@@ -58,6 +66,7 @@ Check at minimum:
 ## Contact And QR Codes
 
 - WeChat QR area is visible and legible.
+- The supplied WeChat QR image is fully visible without cropping.
 - Xiaohongshu QR area is visible and legible.
 - Placeholder QR state is visually intentional if real QR images are missing.
 - Multiple contact channels do not become crowded.

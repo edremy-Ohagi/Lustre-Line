@@ -11,9 +11,10 @@ Use this after sharing the first MVP preview with the founder.
 
 ## Product Display
 
-- Are the four categories correct: 项链、手链、耳钉、戒指?
-- Which product photos should be replaced first?
-- Are the placeholder product names close to the desired tone?
+- Are the expanded categories complete, especially 热门款式、手串、手镯、标本、高端珠宝 and 情侣款式?
+- Which of the six current low-resolution product photos should receive a high-resolution replacement first?
+- Do the catalogue product names and price ranges match the current in-store offering?
+- Does keyword search return the expected products for materials and gemstones?
 - Should product cards show more or less information?
 - Are `新品 / 推荐 / 定制` the right first labels?
 
@@ -32,7 +33,7 @@ Use this after sharing the first MVP preview with the founder.
 
 ## Contact
 
-- Provide the real WeChat QR code.
+- Confirm that the integrated WeChat QR code and WeChat ID `sept` are correct.
 - Provide the real Xiaohongshu QR code or profile link.
 - Confirm whether a phone number, email, or store address should appear.
 - Confirm whether a contact form is needed later.

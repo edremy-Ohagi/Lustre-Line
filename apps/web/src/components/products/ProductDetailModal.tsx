@@ -91,6 +91,9 @@ export function ProductDetailModal({
           </div>
 
           <p className="modal-price">{product.price.display}</p>
+          {product.price.type === 'range' && product.price.note ? (
+            <p className="price-note">{product.price.note}</p>
+          ) : null}
           <p>{product.longDescription}</p>
 
           <div className="modal-actions">
@@ -117,7 +120,7 @@ export function ProductDetailModal({
               <dd>{product.material}</dd>
             </div>
             <div>
-              <dt>主石</dt>
+              <dt>特点</dt>
               <dd>{product.gemstone}</dd>
             </div>
             <div>

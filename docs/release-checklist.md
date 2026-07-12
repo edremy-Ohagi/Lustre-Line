@@ -13,9 +13,10 @@ Use this checklist before sharing a preview link with the founder or deploying t
 - Brand name `南望玉叙` appears clearly.
 - Copy is in Chinese and sounds like a real jewelry brand.
 - No customer-facing text mentions demo, learning, technical stack, backend stage, GitHub Pages, Vite, or React.
-- Product categories include 项链、手链、耳钉、戒指.
+- Category browsing starts with 热门款式 and includes all currently confirmed categories.
+- Keyword search returns relevant products for representative terms such as 翡翠、手镯、海蓝宝、标本.
 - Product cards show image, name, labels, and RMB price or `询问价格`.
-- WeChat and Xiaohongshu contact areas are present.
+- The supplied WeChat QR code renders without cropping; the Xiaohongshu pending state remains intentional until real information is provided.
 
 ## UX
 
@@ -38,7 +39,7 @@ Use this checklist before sharing a preview link with the founder or deploying t
 
 - Logo renders with transparent background.
 - Product images load and keep stable aspect ratios.
-- Placeholder QR states look intentional until real QR files are provided.
+- The Xiaohongshu pending state looks intentional until the remaining real QR/profile information is provided.
 
 ## Handoff Notes
 

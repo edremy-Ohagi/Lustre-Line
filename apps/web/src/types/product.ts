@@ -1,4 +1,15 @@
-export type ProductCategoryId = 'necklace' | 'bracelet' | 'earring' | 'ring'
+export type ProductCategoryId =
+  | 'necklace'
+  | 'bracelet'
+  | 'earring'
+  | 'ring'
+  | 'beads'
+  | 'bangle'
+  | 'specimen'
+  | 'display'
+  | 'accessory'
+  | 'luxury'
+  | 'couple'
 
 export type ProductLabel = '新品' | '推荐' | '定制'
 
@@ -8,6 +19,15 @@ export type ProductPrice =
       amount: number
       currency: 'CNY'
       display: string
+    }
+  | {
+      type: 'range'
+      min: number
+      max?: number
+      currency: 'CNY'
+      unit: string
+      display: string
+      note?: string
     }
   | {
       type: 'inquiry'
@@ -32,6 +52,7 @@ export interface Product {
   name: string
   category: ProductCategoryId
   categoryName: string
+  relatedCategories?: ProductCategoryId[]
   labels: ProductLabel[]
   coverImage: ProductImage
   galleryImages: ProductImage[]
@@ -42,6 +63,7 @@ export interface Product {
   scene: string
   shortDescription: string
   longDescription: string
+  searchKeywords: string[]
   isFeatured: boolean
   sortOrder: number
 }

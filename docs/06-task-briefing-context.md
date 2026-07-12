@@ -11,14 +11,15 @@ It intentionally avoids repeating every rule in full. Detailed rules live in `do
 - Audience: domestic Chinese customers
 - Primary device: mobile phones
 - Visual direction: 轻奢温柔
-- Categories: 项链、手链、耳钉、戒指
+- Browse categories: 热门款式、项链、手链、耳钉、戒指、手串、手镯、标本、摆件、配件、高端珠宝、情侣款式
 - MVP goal: mobile-first frontend preview deployable to GitHub Pages
-- Current next task: `P1.26`
+- Current next tasks: `P1.26` (remote deployment setting) and `P2.3` (complete Xiaohongshu contact information)
 
 ## Current Fixed Decisions
 
 - Use Chinese as the primary language.
-- Use high-quality placeholder product images for MVP.
+- Use the founder-provided catalogue data and six reference product images currently in the MVP.
+- Support keyword search across product name, category, material, gemstone, and description.
 - Show RMB prices or `询问价格`.
 - Support labels: `新品`、`推荐`、`定制`.
 - Include WeChat and Xiaohongshu QR code areas.
@@ -171,4 +172,5 @@ If checks could not run, state why.
 ## Current Blockers
 
 - `P1.26` is blocked by remote GitHub Pages settings. The workflow build succeeds, but the Pages deploy job fails while the repository Pages API returns 404. Enable Pages with source `GitHub Actions`, then rerun the workflow.
-- Real QR codes and real product photos remain optional replacement assets for founder feedback.
+- The real WeChat QR code and six current catalogue reference images are integrated. Xiaohongshu QR/profile information remains pending.
+- The first founder feedback round (`P2.1`, `P2.2`, `P2.4`) is complete; the frontend now uses an editorial catalogue direction with expanded category browsing and keyword search.

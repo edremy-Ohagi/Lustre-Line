@@ -7,12 +7,13 @@ The first MVP is accepted when:
 - The page clearly reads as 南望玉叙 within the first viewport.
 - The visual style feels light luxury and gentle.
 - Mobile layout has no obvious overlap, overflow, or broken spacing.
-- Product categories include 项链、手链、耳钉、戒指.
+- Category browsing starts with 热门款式 and includes 项链、手链、耳钉、戒指、手串、手镯、标本、摆件、配件、高端珠宝、情侣款式.
+- Keyword search can match product names, categories, materials, gemstones, and descriptions.
 - Product cards show image, name, category, label, and RMB price or 询问价格.
 - Product labels support 新品、推荐、定制.
 - Product detail modal opens and closes correctly.
 - Product detail modal can navigate to a dedicated detail page.
-- WeChat and Xiaohongshu QR code areas exist.
+- The supplied WeChat QR code renders clearly, and the Xiaohongshu area has an intentional pending state.
 - Contact channels are easy to find.
 - Hero section focuses on product display and consultation conversion.
 - No customer-facing text exposes implementation, learning, or demo context.

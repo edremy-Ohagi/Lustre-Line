@@ -13,7 +13,7 @@ export function SiteFooter() {
         />
         <span>南望玉叙</span>
       </div>
-      <p>温润玉色与细腻光泽，为日常与心意留一件可佩戴的纪念。</p>
+      <p>天然玉石、彩色宝石与矿物标本，从真实材质开始挑选。</p>
       <div className="footer-links" aria-label="咨询渠道">
         {primaryContactChannels.map((channel) => (
           <span key={channel.id}>{channel.label}</span>

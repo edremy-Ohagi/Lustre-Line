@@ -106,10 +106,10 @@ Goal: use founder feedback to refine the public-facing MVP before backend work.
 
 | ID | Task | Status | Acceptance |
 | --- | --- | --- | --- |
-| P2.1 | Collect visual feedback | PENDING | Style issues are listed |
-| P2.2 | Collect product content feedback | PENDING | Real categories/products/fields are clarified |
+| P2.1 | Collect visual feedback | DONE | Founder identified excessive AI-like styling and requested a bold redesign |
+| P2.2 | Collect product content feedback | DONE | Real catalogue categories, materials, descriptions, prices, and reference images were provided |
 | P2.3 | Collect contact channel feedback | PENDING | QR codes, WeChat ID, Xiaohongshu link are clarified |
-| P2.4 | Apply first feedback round | PENDING | MVP reflects founder decisions |
+| P2.4 | Apply first feedback round | DONE | Editorial redesign, catalogue search, expanded categories, real products, and WeChat QR are implemented |
 | P2.5 | Freeze frontend MVP scope | PENDING | Backend phase can start without constant UI churn |
 
 ## Phase 3: Backend And Admin Planning

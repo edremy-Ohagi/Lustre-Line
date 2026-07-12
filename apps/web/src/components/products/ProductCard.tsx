@@ -1,13 +1,14 @@
-import { ArrowRight, Search } from 'lucide-react'
+import { ArrowUpRight, Plus } from 'lucide-react'
 import { Link } from 'react-router-dom'
 import type { Product } from '../../types/product'
 
 interface ProductCardProps {
   product: Product
+  index: number
   onQuickView: (product: Product) => void
 }
 
-export function ProductCard({ product, onQuickView }: ProductCardProps) {
+export function ProductCard({ product, index, onQuickView }: ProductCardProps) {
   return (
     <article className="product-card">
       <button
@@ -22,22 +23,26 @@ export function ProductCard({ product, onQuickView }: ProductCardProps) {
           loading="lazy"
           decoding="async"
         />
+        <span className="product-card-index">
+          {index.toString().padStart(2, '0')}
+        </span>
       </button>
 
       <div className="product-card-body">
         <div className="product-card-topline">
           <span>{product.categoryName}</span>
-          <strong>{product.price.display}</strong>
+          <div className="label-row" aria-label={`${product.name}标签`}>
+            {product.labels.map((label) => (
+              <span className="product-label" key={label}>
+                {label}
+              </span>
+            ))}
+          </div>
         </div>
 
-        <h3>{product.name}</h3>
-
-        <div className="label-row" aria-label={`${product.name}标签`}>
-          {product.labels.map((label) => (
-            <span className="product-label" key={label}>
-              {label}
-            </span>
-          ))}
+        <div className="product-card-title">
+          <h3>{product.name}</h3>
+          <strong>{product.price.display}</strong>
         </div>
 
         <p>{product.shortDescription}</p>
@@ -48,8 +53,8 @@ export function ProductCard({ product, onQuickView }: ProductCardProps) {
             type="button"
             onClick={() => onQuickView(product)}
           >
-            <Search aria-hidden="true" size={16} />
-            快速查看
+            <Plus aria-hidden="true" size={16} />
+            查看细节
           </button>
           <Link
             className="icon-link"
@@ -57,7 +62,7 @@ export function ProductCard({ product, onQuickView }: ProductCardProps) {
             aria-label={`进入${product.name}独立详情页`}
           >
             详情页
-            <ArrowRight aria-hidden="true" size={16} />
+            <ArrowUpRight aria-hidden="true" size={16} />
           </Link>
         </div>
       </div>

@@ -36,10 +36,11 @@ Before coding, read these files:
 ## Current Decisions
 
 - Temporary brand name: 南望玉叙
-- Visual direction: 轻奢温柔
-- Product categories: 项链、手链、耳钉、戒指
-- MVP product images: use high-quality placeholders first
-- Contact channels: include WeChat and Xiaohongshu QR code areas
+- Visual direction: 轻奢温柔，采用克制的东方编辑式珠宝选品册表达
+- Product browsing categories: 热门款式、项链、手链、耳钉、戒指、手串、手镯、标本、摆件、配件、高端珠宝、情侣款式
+- MVP product images: use the six current catalogue reference images supplied under `user-docs`; replace with higher-resolution real photos when available
+- Contact channels: real WeChat QR code is integrated; keep the Xiaohongshu QR/profile area pending until provided
+- Product discovery: support category filters and keyword search across names, materials, gemstones, and descriptions
 - Price display: use RMB by default, with support for 询问价格
 - Product labels: support 新品、推荐、定制
 - Product detail pattern: modal preview plus link to a dedicated detail page

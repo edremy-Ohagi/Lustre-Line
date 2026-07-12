@@ -9,11 +9,12 @@ Create a customer-facing front-end MVP that can be shared with the founder throu
 - Mobile-first landing page
 - Brand header with logo / brand name
 - Hero section focused on product display and consultation conversion
-- Product categories:
-  - 项链
-  - 手链
-  - 耳钉
-  - 戒指
+- Product category browsing:
+  - 热门款式
+  - 项链、手链、耳钉、戒指
+  - 手串、手镯、标本、摆件、配件
+  - 高端珠宝、情侣款式
+- Keyword search for product name, category, material, gemstone, and description
 - Product list
 - Product labels:
   - 新品
@@ -26,7 +27,7 @@ Create a customer-facing front-end MVP that can be shared with the founder throu
 - WeChat QR code area
 - Xiaohongshu QR code area
 - Multiple contact channels
-- High-quality placeholder product images
+- Founder-provided current product catalogue data and reference images
 - GitHub Pages-friendly deployment
 
 ## Should Have

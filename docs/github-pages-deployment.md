@@ -41,7 +41,7 @@ The frontend uses `HashRouter`, so product detail pages work on GitHub Pages wit
 Example route:
 
 ```text
-https://<user>.github.io/<repo>/#/products/moon-pearl-necklace
+https://<user>.github.io/<repo>/#/products/natural-stone-beads
 ```
 
 ## Vite Base Path
@@ -55,7 +55,7 @@ GITHUB_PAGES=true
 inside the workflow to set the Vite `base` path to the repository name, such as:
 
 ```text
-/Jewel-show/
+/Lustre-Line/
 ```
 
 Local development and local builds keep:
@@ -91,5 +91,5 @@ To unblock:
 Expected preview URL after success:
 
 ```text
-https://edremy-ohagi.github.io/Jewel-show/
+https://edremy-ohagi.github.io/Lustre-Line/
 ```
