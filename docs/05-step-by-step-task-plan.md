@@ -97,7 +97,7 @@ For GitHub Pages MVP, prefer `HashRouter` or an equivalent static-host-safe rout
 | P1.23 | Run build checks | DONE | Build succeeds |
 | P1.24 | Browser verification | DONE | Main flow works: home -> product modal -> detail page -> contact |
 | P1.25 | Prepare GitHub Pages deployment | DONE | Deployment script or action exists |
-| P1.26 | Deploy MVP to GitHub Pages | BLOCKED | Shareable URL exists; blocked until GitHub Pages source is enabled for GitHub Actions |
+| P1.26 | Deploy MVP to GitHub Pages | DONE | Public site is available at `https://edremy-ohagi.github.io/Lustre-Line/` |
 | P1.27 | Prepare founder feedback checklist | DONE | Questions for style, product data, contact, and layout are ready |
 
 ## Phase 2: Founder Feedback Iteration

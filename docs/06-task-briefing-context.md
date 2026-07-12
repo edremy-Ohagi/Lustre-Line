@@ -13,7 +13,7 @@ It intentionally avoids repeating every rule in full. Detailed rules live in `do
 - Visual direction: 轻奢温柔
 - Browse categories: 热门款式、项链、手链、耳钉、戒指、手串、手镯、标本、摆件、配件、高端珠宝、情侣款式
 - MVP goal: mobile-first frontend preview deployable to GitHub Pages
-- Current next tasks: `P1.26` (remote deployment setting) and `P2.3` (complete Xiaohongshu contact information)
+- Current next task: `P2.3` (complete Xiaohongshu contact information)
 
 ## Current Fixed Decisions
 
@@ -169,8 +169,9 @@ If checks could not run, state why.
 先不要写代码。
 ```
 
-## Current Blockers
+## Current Deployment
 
-- `P1.26` is blocked by remote GitHub Pages settings. The workflow build succeeds, but the Pages deploy job fails while the repository Pages API returns 404. Enable Pages with source `GitHub Actions`, then rerun the workflow.
+- `P1.26` is complete. The public MVP is available at `https://edremy-ohagi.github.io/Lustre-Line/`.
+- GitHub Actions run `29183007400` deployed commit `aea3d4a` successfully.
 - The real WeChat QR code and six current catalogue reference images are integrated. Xiaohongshu QR/profile information remains pending.
 - The first founder feedback round (`P2.1`, `P2.2`, `P2.4`) is complete; the frontend now uses an editorial catalogue direction with expanded category browsing and keyword search.

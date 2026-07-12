@@ -116,15 +116,15 @@
 - 新增商品关键词搜索和空品类咨询引导
 - 新增与当前页面视觉一致的社交分享图
 
-当前前台 MVP 已完成第一轮 founder 反馈改造，并已准备好 GitHub Pages 部署配置。首次 workflow 的构建步骤已成功，但部署步骤被 GitHub Pages 远程设置阻塞，需要在 GitHub 仓库设置里启用 Pages 的 `GitHub Actions` 来源后重跑 workflow。
+当前前台 MVP 已完成第一轮 founder 反馈改造，并已通过 GitHub Actions 正式发布到 GitHub Pages：`https://edremy-ohagi.github.io/Lustre-Line/`。首页、脚本资源、Logo、微信二维码和社交分享图均已确认可公开访问。
 
-下一步推荐任务：
+部署任务状态：
 
 ```text
-P1.26：在 GitHub 仓库设置中启用 Pages 的 GitHub Actions 来源后，重跑 workflow 并拿到可分享 URL
+P1.26：DONE
 ```
 
-内容侧下一步：
+下一步推荐任务：
 
 ```text
 P2.3：提供小红书二维码或主页链接，并确认是否需要手机号、邮箱或门店地址

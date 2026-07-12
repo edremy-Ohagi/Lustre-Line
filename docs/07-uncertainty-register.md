@@ -56,7 +56,7 @@ RESOLVED       already decided
 
 ## Current Summary
 
-Current deployment blocker: GitHub Pages publishing needs the remote repository Pages source enabled for GitHub Actions.
+GitHub Pages deployment is live at `https://edremy-ohagi.github.io/Lustre-Line/`; there is no current deployment blocker.
 
 P1.5-P1.9 applied sensible MVP defaults: transparent header logo, placeholder product data, high-quality product imagery, and WeChat / Xiaohongshu QR slots.
 
@@ -68,4 +68,4 @@ P1.25 and P1.27 are prepared locally: GitHub Pages workflow and founder feedback
 
 The first founder feedback round is applied: the generic placeholder catalogue has been replaced by six supplied product groups, category browsing is expanded, keyword search is available, and the supplied WeChat QR code is in use. Xiaohongshu account information remains non-blocking and pending.
 
-P1.26 is blocked until the remote repository enables Pages with source `GitHub Actions`, then reruns the workflow.
+P1.26 is complete. GitHub Actions run `29183007400` deployed the redesigned catalogue successfully.

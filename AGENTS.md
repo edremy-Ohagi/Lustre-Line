@@ -6,7 +6,7 @@ This file records the operating context Codex must follow when working on this r
 
 - Project name: 南望玉叙
 - Nature: real client-facing jewelry showcase project, not a learning demo
-- Current stage: GitHub Pages deployment prepared; publication blocked by remote Pages settings
+- Current stage: frontend MVP is published on GitHub Pages; first founder-feedback redesign is live
 - Primary audience: domestic Chinese customers
 - Primary device: mobile phones first, desktop second
 
